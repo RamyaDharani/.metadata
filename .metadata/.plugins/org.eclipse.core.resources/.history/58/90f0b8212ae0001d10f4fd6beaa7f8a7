@@ -1,0 +1,13 @@
+package com.example.database.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.example.database.Repository.EmployeeRepository;
+
+@Service
+public class EmployeeService {
+@Autowired
+	EmployeeRepository repobj;
+}
+
