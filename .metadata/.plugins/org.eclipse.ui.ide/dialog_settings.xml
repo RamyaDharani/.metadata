@@ -36,4 +36,13 @@
 		<item key="DIALOG_X_ORIGIN" value="585"/>
 		<item key="DIALOG_Y_ORIGIN" value="274"/>
 	</section>
+	<section name="WORKBENCH_SETTINGS">
+		<list key="ENABLED_TRANSFERS">
+		</list>
+	</section>
+	<section name="org.eclipse.ui.internal.views.markers.FiltersConfigurationDialog">
+		<item key="SELECTED_FILTER_GROUP" value="Errors/Warnings on Project"/>
+		<list key="PREV_SELECTED_ELEMENTS">
+		</list>
+	</section>
 </section>

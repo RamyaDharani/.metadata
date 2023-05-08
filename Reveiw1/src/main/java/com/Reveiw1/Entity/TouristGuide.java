@@ -6,43 +6,43 @@ import jakarta.persistence.Id;
 @Entity
 public class TouristGuide {
 @Id
-	private int GuideId;
-	private String GuideName;
-	private int GuideAge;
-	private String Availability;
-	private String LanguageKnown;
+	private int guideId;
+	private String guideName;
+	private int guideAge;
+	private String availability;
+	private String languageKnown;
 	private String contactNumber;
-	private int AmountPerDay;
-	
+	private int amountPerDay;
+	private int noOfDays;
 	public int getGuideId() {
-		return GuideId;
+		return guideId;
 	}
 	public void setGuideId(int guideId) {
-		GuideId = guideId;
+		this.guideId = guideId;
 	}
 	public String getGuideName() {
-		return GuideName;
+		return guideName;
 	}
 	public void setGuideName(String guideName) {
-		GuideName = guideName;
+		this.guideName = guideName;
 	}
 	public int getGuideAge() {
-		return GuideAge;
+		return guideAge;
 	}
 	public void setGuideAge(int guideAge) {
-		GuideAge = guideAge;
+		this.guideAge = guideAge;
 	}
 	public String getAvailability() {
-		return Availability;
+		return availability;
 	}
 	public void setAvailability(String availability) {
-		Availability = availability;
+		this.availability = availability;
 	}
 	public String getLanguageKnown() {
-		return LanguageKnown;
+		return languageKnown;
 	}
 	public void setLanguageKnown(String languageKnown) {
-		LanguageKnown = languageKnown;
+		this.languageKnown = languageKnown;
 	}
 	public String getContactNumber() {
 		return contactNumber;
@@ -51,10 +51,17 @@ public class TouristGuide {
 		this.contactNumber = contactNumber;
 	}
 	public int getAmountPerDay() {
-		return AmountPerDay;
+		return amountPerDay;
 	}
 	public void setAmountPerDay(int amountPerDay) {
-		AmountPerDay = amountPerDay;
+		this.amountPerDay = amountPerDay;
 	}
+	public int getNoOfDays() {
+		return noOfDays;
+	}
+	public void setNoOfDays(int noOfDays) {
+		this.noOfDays = noOfDays;
+	}
+	
 	
 }

@@ -2,7 +2,6 @@ package com.example.database.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
-
 @Entity
 public class Employee {
    @Id
